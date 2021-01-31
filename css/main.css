@@ -1,0 +1,95 @@
+/* Variables */
+:root{
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+  --white: #FFFFFF;
+}
+
+body{
+  background-color: var(--Light-Grayish-Blue);
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.wrapper{
+  min-width: 288px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-content{
+  background-color: var(--white);
+  border-radius: 10px;
+  margin: 50px 0 40px;
+  overflow: hidden;
+}
+
+.main-content figure{
+  margin: 0;
+  width: 100%;
+}
+
+.main-content figure img{
+  width: inherit;
+}
+
+.content-text,
+.content-share{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.content-text h2{
+  font-weight: 400;
+}
+
+.content-text p{
+  color: var(--Desaturated-Dark-Blue);
+}
+
+.content-share{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.share-text{
+  align-items: center;
+  display: flex;
+}
+
+.share-text img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.share-icon{
+  background-image: url("../images/icon-share.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  padding: 7px;
+  width: 30px;
+}
+
+.avatar-info{
+  margin-left: 20px;
+}
+
+.avatar-info h3{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.avatar-info p{
+  color: var(--Grayish-Blue);
+  font-size: 14px;
+}
